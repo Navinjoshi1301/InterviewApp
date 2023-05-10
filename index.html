@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Doc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      
+       body {
+    opacity: 100%;
+    width: 1366px;
+    height: 768px;
+   background: transparent url("ssism.png") no-repeat;
+  box-sizing: border-box;
+  
+}
+/* div css */
+.loginform {
+  border-radius: 3%;
+  margin-top: 144px;
+  margin-left: 475px;
+  width: 416px;
+  height: 480px;
+  background-color: white;
+}
+
+
+/* email input css */
+#emailcss {
+  
+  border-style:unset;
+  border-radius: 5px;
+ box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-left: 6px solid orangered;
+  padding-left: 15px;
+  width: 300px;
+  height: 54px;
+  margin-top: 59.26px;
+  margin-left: 47px;
+  outline: none;
+  
+}
+/* password box css */
+#passwordcss {
+  outline: none;
+ border-style: unset;
+ border-radius: 5px;
+ box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-left: 6px solid orangered;
+  padding-left: 15px;
+  width: 300px;
+  height: 54px;
+  margin-top: 30.26px;
+  margin-left: 47px;
+  
+   
+}
+
+/* ssism logo */
+#ssismlogoo {
+  width: 164.35px;
+  height: 52.48px;
+  margin-top: 50.26px;
+  margin-left: 126px;
+}
+
+/* forgot password  */
+#Forgot{
+ text-decoration: none;
+  margin-left: 265px;
+  font-family:'Poppins', sans-serif;
+  font-size: 14px;
+  color: #11429A;
+}
+/* button */
+#button{
+  
+  width:322px;
+  height: 54px;
+  margin-left: 47px;
+  border-radius: 5px;
+  color: white;
+  background-color: #E36C1E;
+  border: #E36C1E;
+  font-family:'Poppins', sans-serif ;
+  font-weight:bold ;
+
+}
+#eye{
+  position: absolute;
+  margin-left: 30px;
+  top: 420px;
+  display: none;
+}
+#eye1{
+  position: absolute;
+  margin-left: 30px;
+  top: 420px;
+  
+}
+.eyee{
+  position: absolute;
+  margin-left: 3px;
+  top:0px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="loginform">
+        <img id="ssismlogoo" src="Group38515.png" alt="ssismLogo" >
+        <span class="eyee" onclick="myfunction()">
+        <i id="eye" class="fa fa-eye"></i>
+        <i id="eye1" class="fa fa-eye-slash"></i></span>
+        <input id="emailcss" type="email" name="email"  placeholder= " Email " required>
+       
+        <input id="passwordcss" type="password" name="password
+        " placeholder="Password"required>
+        
+
+
+        <br><br>
+        <a id="Forgot" href="#">Forgot password </a><br><br>
+        <button id="button" type="submit">Login</button>
+       
+    </div>
+    <script>
+      function myfunction(){
+        var a=document.getElementById("passwordcss");
+        var b=document.getElementById("eye");
+        var c=document.getElementById("eye1");
+
+        if(a.type === 'password'){
+          a.type = "text";
+          b.style.display ="block";
+          c.style.display = "none";
+
+        }
+        else{
+          a.type = "password";
+          b.style.display ="none";
+          c.style.display = "block";
+          
+        }
+
+      }
+    </script>
+</body>
+</html>
