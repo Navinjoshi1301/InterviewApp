@@ -1,243 +1,837 @@
-*{
-margin:0;
-padding: 0;
-font-family:'Poppins';
-font-size: medium;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: medium;
 }
-.background{
-    position:absolute;
-    top:0%;
-    left:0%;
-    height:100vh;
+
+.background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
     width: 100%;
 }
-.navbar{
+
+.navbar {
     background-color: white;
     position: absolute;
-    height:10vh;
-    width:100%;
-    left:0%;
-    top:0%;
+    height: 10vh;
+    width: 100%;
+    left: 0%;
+    top: 0%;
 }
-.logo{
+
+.logo {
     position: absolute;
-    top:12%;
-    left:5%;
+    top: 12%;
+    left: 5%;
 }
-.user{
+
+.user {
     position: absolute;
-    top:10%;
-    left:92%;
+    top: 10%;
+    left: 91%;
 }
-.addbutton{
+
+.addbutton {
     position: absolute;
-    top:22%;
-    left:85%;
+    top: 22%;
+    left: 85%;
 }
-.updatebutton{
+
+.updatebutton {
     position: absolute;
     top: 22%;
     left: 75.4%;
 }
-.deletebutton{
+
+.deletebutton {
     position: absolute;
-    top: 23%;
-    left: 72%;
+    top: 26%;
+    left: 72.55%;
 }
-.container{
-    top: 20%;
-    left:38% ;
+
+.container {
     position: absolute;
+    top: 20%;
+    left: 80%;
+    /* position: absolute; */
     background-color: #FFFFFF;
     width: 53vh;
     height: 70vh;
-    border-radius:2vh;
+    border-radius: 2vh;
 }
-.back{
+
+.back {
     position: absolute;
-    top:5%;
-    left:4%;
+    top: 5%;
+    left: 4%;
 }
-.dragdrop{
+
+.dragdrop {
     position: absolute;
-    top:15%;
-    left:12%;
+    top: 15%;
+    left: 12%;
     border: 2px dashed #E0651D;
     height: 16vh;
     width: 38vh;
 
 }
-.choosefile{
+
+.choosefile {
     position: absolute;
     width: 100%;
     color: #F08622;
-    top:66%;
+    top: 66%;
     left: 6%;
-    
-    
+
+
 }
-.input{
- position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  outline: none;
-  opacity: 0;
-}
-.import{
+
+.Input {
     position: absolute;
-    left:40%;
-    top:15%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
 }
-.or{
+
+.import {
     position: absolute;
-    
-    background-color:#FFFFFF ;
+    left: 40%;
+    top: 15%;
+}
+
+.or {
+    position: absolute;
+
+    background-color: #FFFFFF;
     width: 7vh;
     height: 7vh;
     top: 42%;
     left: 42%;
 }
-.ortext{
+
+.ortext {
     position: absolute;
     top: 24%;
     left: 25%;
     color: #E0651D;
 }
-.line{
+
+.line {
     position: absolute;
-   height: 1vh;
-   width:38vh;
-   top: 47%;
-   left: 13%;
+    height: 1vh;
+    width: 38vh;
+    top: 47%;
+    left: 13%;
 }
-.linee{
-    border:1px solid #E0651D30;
+
+.linee {
+    border: 1px solid #E0651D30;
 }
-.browsetext{
+
+.browsetext {
     position: absolute;
     top: 10%;
     left: 17%;
     color: #F08622;
 
 }
-.browse{
+
+.browse {
     position: absolute;
     height: 5vh;
     width: 21vh;
     top: 57%;
     left: 28%;
     border: 2px solid #F08622;
-    border-radius:3px;
+    border-radius: 3px;
 }
-.upload{
+
+.upload {
     position: absolute;
     top: 74%;
     left: 12%;
-    height:6vh;
-    width:38vh;
+    height: 6vh;
+    width: 38vh;
 
 }
-.upldbutton{
-width: 38vh;
-height:6vh;
-border: none;
-background-color: #EBEBEB;
-color: #8B8B8B;
-border-radius: 5px;
+
+.upldbutton {
+    width: 38vh;
+    height: 6vh;
+    border: none;
+    background-color: #EBEBEB;
+    color: #8B8B8B;
+    border-radius: 5px;
 }
 
 
 
 /* login page css */
 
-.emailcss{
+.emailcss {
     position: absolute;
-    /* border-style:unset; */
     border-radius: 5px;
-    background-color: white;
-   /* */
-    /* border-left: 1vh solid orangered; */
+    background-color: white(240, 17, 17);
     width: 45vh;
+    box-shadow: 0px 0px 20px #00000014;
     height: 8vh;
-    top: 25%;
-    left: 6%;
-    /*  */
+    top: 27%;
+    left: 5%;
 }
-.Input{
-    border-radius:5px ;
+
+.Input {
+    /* border-radius:5px ;
     position: absolute;
     width: 45vh;
     height: 8vh;
     border: white;
     box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
     outline: none;
-    padding-left: 7px;
-border-left:1vh solid #f08622 ;
+    padding-left: 7px; */
+    /* border-left:1vh solid #f08622 ;
+width: 33vh;
+height: 8vh;
+outline: none;
+background-color: white;
+border: none;
+left: 5%;
+padding-left: 3%;
+border-left: .8vh solid #F08622;
+left: 4px solid orangered; */
+    /* box-shadow: 0px 0px 20px #00000014; */
+    /* font-family: 'Poppins', sans-serif;
+opacity: 1; */
 
 }
 
-.passwordcss{
+/* div he */
+.passwordcss {
     position: absolute;
     border-radius: 5px;
-    background-color: white;
+    background-color: white(243, 12, 12);
     width: 45vh;
+    box-shadow: 0px 0px 20px #00000014;
     height: 8vh;
-    top: 48%;
-    left: 6%;
+    top: 46%;
+    left: 5%;
 
 }
-.InputPass{
-    position: absolute;
+
+.InputPass {
+    /* position: absolute;
     width: 45vh;
     height: 8vh;
     border: white;
     box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
     outline: none;
     padding-left: 7px;
-    border-radius:5px ;
-border-left:1vh solid #f08622 ;
-
+    border-radius:5px ; */
+    border-left: 1vh solid #f08622;
+    width: 33vh;
+    height: 8vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 5%;
+    padding-left: 3%;
+    border-left: .8vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
 }
 
-   .slogo{
+.slogo {
     position: absolute;
     left: 27%;
     top: 5%;
-    }
+}
 
-    .ForgetPass{
+.ForgetPass {
+    position: absolute;
+    background-color: white;
+    top: 60%;
+    left: 56%;
+    height: 7vh;
+    width: 42%;
+}
+
+.Forgot {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1vh;
+    text-decoration: none;
+}
+
+.LoginBtn {
+    position: absolute;
+    background-color: white(230, 11, 11);
+    top: 77%;
+    left: 5%;
+    height: 8vh;
+    width: 45vh;
+}
+
+.button {
+    position: absolute;
+    width: 45vh;
+    height: 7vh;
+    color: white;
+    outline: none;
+    border: #f08622;
+    background-color: #f08622;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #00000014;
+
+}
+
+
+
+/* Meghuuuuuuuuuu     page 1 css */
+
+/* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-size: medium;
+    } */
+
+
+
+/* .navbar {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
         position: absolute;
+        height: 10vh;
+        width: 100%;
+        left: 0%;
+        top: 0%;
+    } */
+
+/* .logo {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+    } */
+
+/* .user {
+        position: absolute;
+        top: 10%;
+        left: 91.30%;
+    } */
+
+/* .addbutton {
+        position: absolute;
+        top: 22%;
+        left: 85%;
+    } */
+
+/* .updatebutton {
+        position: absolute;
+        top: 22%;
+        left: 75.4%;
+    
+    }
+     */
+/* .deletebtn {
+        position: absolute;
+        top: 27%;
+        left: 72.57%;
+    } */
+
+body {
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+}
+
+.container {
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 50vh;
+    height: 70vh;
+    border-radius: 2vh;
+}
+
+.BackTableDip {
+    position: absolute;
+    top: 22%;
+    left: 0%;
+    width: 100%;
+    height: 74vh;
+    background: #ffffff no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-color: white;
+    opacity: 1;
+}
+
+.TableDip {
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    width: 80%;
+    height: 74vh;
+    background: #ffffff no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    border: 2px solid #FFFFFF;
+    border-color: white;
+    opacity: 1;
+}
+
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table#customers {
+    position: absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    top: 9px;
+    left: 16px;
+    width: 97%;
+}
+
+.tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: #e0e4de;
+}
+
+.trr {
+    top: 19px;
+    left: 83px;
+    width: 100px;
+    height: 40px;
+    background: #F0F4F9 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F4F9;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.trr2 {
+    top: 250px;
+    left: 83px;
+    width: 1195px;
+    height: 40px;
+    background: #F9FAFC 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F4F9;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.trr3 {
+    top: 290px;
+    left: 83px;
+    width: 1195px;
+    height: 40px;
+    background: #F0F4F9 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F4F9;
+    opacity: 1;
+    text-align: left;
+    font: bold bold normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.trr4 {
+    top: 389px;
+    left: 92px;
+    width: 1195px;
+    height: 40px;
+    background: #F9FAFC 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F4F9;
+    text-align: left;
+    font: bold bold normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.trr5 {
+    top: 404px;
+    left: 83px;
+    width: 1195px;
+    height: 40px;
+    background: #F9F4F9 0% 0% no-repeat padding-box;
+    border: 1px solid #F0F4F9;
+    text-align: left;
+    font: bold bold normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.Serch {
+    position: absolute;
+    top: 11%;
+    left: 78%;
+    width: 13%;
+    height: 10vh;
+    background-color: #f6f6f6;
+    outline: none;
+}
+
+.ss {
+    position: absolute;
+    outline: none;
+    border-color: #FFFFFF;
+    top: 16%;
+    height: 6vh;
+    width: 89%;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20vh;
+    text-align: center;
+}
+
+.backk {
+    position: absolute;
+    width: 10vh;
+    top: 14%;
+    left: 6%;
+}
+
+.DIV {
+    position: absolute;
+    width: 40%;
+    height: 6vh;
+    left: 28%;
+    top: 13%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.A1button {
+    position: absolute;
+    left: 28%;
+    top: 16%;
+    font-family: 'Poppins', sans-serif;
+    font: bold normal 300 16px/25px Poppins;
+    letter-spacing: 0px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+.B1button {
+    position: absolute;
+    left: 57%;
+    top: 16%;
+    font-family: 'Poppins', sans-serif;
+    font: bold normal 300 16px/25px Poppins;
+    letter-spacing: 0px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+.C1button {
+    position: absolute;
+    left: 87%;
+    top: 16%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font: bold normal 300 16px/25px Poppins;
+    letter-spacing: 0px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+.level {
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    font-weight: bold normal 300 16px/25px Poppins;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    border: #E36C1E;
+    color: #E36C1E
+}
+
+
+/*  meghaaa  Get Linkkkkkkkkkkkkk */
+
+/* .piccc{
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: -7vh;
+        position: fixed;
+        height: 115vh;
+        width: 105.7vw;
+    } */
+/* .Divv {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 36%;
+        width: 53vh;
+        height: 70vh;
         background-color: white;
-        top: 63%;
-        left: 56%;
-        height: 7vh;
-        width: 42%;
-    }
-    .Forgot{
-        position: absolute;
-        font-family:Arial, Helvetica, sans-serif;
-        padding-top:1vh ;
-        text-decoration: none;
-    } 
-    .LoginBtn{
-        position: absolute;
-        background-color: white(230, 11, 11);
-        top: 79%;
-        left: 8%;
-        height: 8vh;
-        width: 45vh;
-    }  
-    .button{
-        position: absolute;
-        width: 45vh;
-        height: 7vh;
-        color: white;
-        outline: none;
-        border: #f08622;
-        background-color: #f08622;
-        border-radius: 5px;
-        box-shadow: 0px 0px 20px #00000014;
+        border-radius: 2vh;
+    
+    } */
 
-    }
+/* .Ssismlogo {
+        position: absolute;
+        margin-top: 11%;
+        margin-left: 43%;
+        width: 25vh;
+        height: 11vh;
+        background-color: white;
+    } */
+/* Divvv */
+.EnterEmail {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    width: 40vh;
+    height: 6vh;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 3px;
+    opacity: 1;
+
+}
+
+#Poppinss {
+    margin-top: 3%;
+    margin-left: 82px;
+    width: 220px;
+    font-weight: unset;
+    color: #1A1A1A;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.InputDip {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 45vh;
+    height: 8vh;
+    border: none;
+    background-color: white(241, 12, 12);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #00000014;
+    opacity: 1;
+}
+
+.input {
+    position: absolute;
+    width: 33vh;
+    height: 8vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 3%;
+    padding-left: 3%;
+    border-left: .6vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+}
+
+.buttonDip {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 45vh;
+    height: 7vh;
+    background-color: white;
+}
+
+#buttn {
+    height: 7vh;
+    width: 40vh;
+    color: white;
+    border-color: #f08622;
+    background-color: #f08622;
+    box-shadow: 0px 0px 20px #00000014;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* MEGHA CONFIRM PASSWORD PAGE */
+
+.passwrdDip {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 45vh;
+    height: 8vh;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #00000014;
+    opacity: 1;
+}
+
+
+/* MEGHA  DROPDOWN BALA PAGE  */
+
+.addstudent {
+    position: absolute;
+    top: 6%;
+    left: 34%;
+    height: 5vh;
+    width: 39%;
+    background-color: #ffffff;
+}
+
+.div1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 45vh;
+    box-shadow: 0px 0px 20px #00000014;
+    height: 8vh;
+    top: 18%;
+    left: 5%;
+}
+
+.div2 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 45vh;
+    box-shadow: 0px 0px 20px #00000014;
+    height: 8vh;
+    top: 33%;
+    left: 5%;
+}
+
+.div3 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 45vh;
+    height: 8vh;
+    box-shadow: 0px 0px 20px #00000014;
+    top: 48%;
+    left: 5%;
+}
+
+.Dropdown {
+    position: absolute;
+    width: 43vh;
+    height: 8vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 3%;
+    padding-left: 3%;
+    border-left: .6vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+}
+
+.Dropdown2 {
+    position: absolute;
+    width: 43vh;
+    height: 8vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 3%;
+    padding-left: 3%;
+    border-left: .6vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+}
+
+.LINEE {
+    border: 1px solid #e0651d30;
+}
+
+.LINE {
+    position: absolute;
+    background-color: white;
+    height: 1vh;
+    width: 41vh;
+    top: 79%;
+    left: 9.34%;
+}
+
+.OR {
+    position: absolute;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 7vh;
+    height: 4vh;
+    top: 76%;
+    left: 43%;
+}
+
+.ORtxt {
+    position: absolute;
+    top: 11%;
+    left: 23%;
+    color: #e0651d;
+}
+
+.btnDip {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 45vh;
+    height: 7vh;
+    background-color: white;
+}
+
+.btn {
+    height: 7vh;
+    width: 40vh;
+    color: white;
+    border-color: #f08622;
+    background-color: #f08622;
+    box-shadow: 0px 0px 20px #00000014;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ImportExl {
+    position: absolute;
+    top: 83%;
+    left: 7%;
+    width: 45vh;
+    height: 7vh;
+    background-color: white;
+}
+
+.submitBtn {
+    height: 7vh;
+    width: 40vh;
+    color: white;
+    border-color: #f08622;
+    box-shadow: 0px 0px 20px #00000014;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
