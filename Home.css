@@ -1,0 +1,185 @@
+body {
+    overflow: auto;
+        background-color: #c8c8c8;
+    }
+
+    .bgd {
+        /* background-image: url(); */
+        overflow: auto;
+        margin-top: 2vh;
+        margin-left: -3vw;
+        position: fixed;
+        height: 85vh;
+        width: 105vw;
+    }
+    .button1:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+    .button1:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+    .button2:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+    .button3:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+    .button4:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+    .button5:hover{
+        transition: all 2s ease-in-out ;
+        transform: scale(1.1);
+        margin-top: -8%;
+        margin-left: -1%;
+        width: 19vw;
+        height: 24vh;
+    }
+
+    .button1 {
+        background-image: linear-gradient(#F9BD04, #f9f909b1), url("./images/cloud1.avif");
+        overflow: hidden;
+        text-align: center;
+        /* display: flex;
+    justify-content:center;
+     align-items:;  */
+        position: absolute;
+        top: 73vh;
+        left: 1.8vw;
+        width: 17vw;
+        height: 22vh;
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #00070b33;
+
+        font: normal normal 600 40px/16px Poppins;
+        color: #ffffff;
+    }
+
+    .button2 {
+        background-image: linear-gradient(rgba(0, 0, 255, 0.741), rgba(0, 0, 255, 0.481)), url("./images/cloud1.avif");
+        text-align: center;
+        /* display: flex;
+    justify-content:center;
+     align-items:;  */
+        position: absolute;
+        top: 73vh;
+        left: 21.6vw;
+        width: 17vw;
+        height: 22vh;
+        /* background-color: blue; */
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #00070b33;
+
+        font: normal normal 600 40px/16px Poppins;
+        color: #ffffff;
+
+    }
+
+    .button3 {
+        background-image: linear-gradient(rgba(255, 0, 0, 0.841), rgba(255, 0, 0, 0.508)), url("./images/cloud1.avif");
+        text-align: center;
+        /* display: flex;
+    justify-content:center;
+     align-items:;  */
+        position: absolute;
+        top: 73vh;
+        left: 41.4vw;
+        width: 17vw;
+        height: 22vh;
+        /* background-color:red; */
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #00070b33;
+
+        font: normal normal 600 40px/16px Poppins;
+        color: #ffffff;
+    }
+
+    .button4 {
+        background-image: linear-gradient(rgba(0, 128, 0, 0.485), rgba(0, 128, 0, 0.707)), url("./images/cloud1.avif");
+        text-align: center;
+        /* display: flex;
+    justify-content:center;
+     align-items:;  */
+        position: absolute;
+        top: 73vh;
+        left: 61.2vw;
+        width: 17vw;
+        height: 22vh;
+        /* background-color: green; */
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #00070b33;
+
+        font: normal normal 600 40px/16px Poppins;
+        color: #ffffff;
+    }
+
+    .button5 {
+        background-image: linear-gradient(#F9bd09, rgba(255, 166, 0, 0.712)), url("./images/cloud1.avif");
+        text-align: center;
+        /* display: flex;
+    justify-content:center;
+     align-items:;  */
+        position: absolute;
+        top: 73vh;
+        left: 81.8vw;
+        width: 17vw;
+        height: 22vh;
+        /* background-color: orange; */
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #00070b33;
+
+        font: normal normal 600 40px/16px Poppins;
+        color: #ffffff;
+    }
+    .text1{
+        font: normal normal 100 25px/16px Poppins;
+        color: #ffffff ;
+    }
+    .heading {
+        position: absolute;
+        /* font-size:7vh;        */
+        margin-top: 17%;
+        margin-left: 7%;
+        left:22vw;
+        width: 25vw;
+        height: 30vh;
+        /* text-align: center; */
+        font: 54px/65px Poppins;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    .pera{
+        position: absolute;
+        
+        margin-top: 27%;
+        margin-left:29% ;
+        text-align: center;
+        font: italic normal normal 20px/27px Poppins;
+        letter-spacing: 1px;
+        color: #FFFFFFE6;
+    }
