@@ -1,25 +1,35 @@
 body {
-    overflow: auto;
+       margin: 0%;
+       padding: 0%;
+      overflow: auto;
         background-color: #c8c8c8;
     }
 
     .bgd {
         /* background-image: url(); */
         overflow: auto;
-        margin-top: 2vh;
-        margin-left: -3vw;
         position: fixed;
-        height: 85vh;
+        height: 75vh;
         width: 105vw;
     }
-    .button1:hover{
-        transition: all 2s ease-in-out ;
-        transform: scale(1.1);
-        margin-top: -8%;
-        margin-left: -1%;
-        width: 19vw;
-        height: 24vh;
+    .first{
+       
+        background-color: white;
+         box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+         height: 10vh;
     }
+        .logo{
+            position: absolute;
+            top: 1vh;     
+            left: 3vw;
+        }
+   .allu{
+       border-radius: 50%!important;
+       width: 3vw;
+         position: absolute;
+         left:95vw;
+         top: 2vh;
+   }
     .button1:hover{
         transition: all 2s ease-in-out ;
         transform: scale(1.1);
@@ -69,7 +79,7 @@ body {
     justify-content:center;
      align-items:;  */
         position: absolute;
-        top: 73vh;
+        top: 75vh;
         left: 1.8vw;
         width: 17vw;
         height: 22vh;
@@ -87,7 +97,7 @@ body {
     justify-content:center;
      align-items:;  */
         position: absolute;
-        top: 73vh;
+        top: 75vh;
         left: 21.6vw;
         width: 17vw;
         height: 22vh;
@@ -107,7 +117,7 @@ body {
     justify-content:center;
      align-items:;  */
         position: absolute;
-        top: 73vh;
+        top: 75vh;
         left: 41.4vw;
         width: 17vw;
         height: 22vh;
@@ -126,7 +136,7 @@ body {
     justify-content:center;
      align-items:;  */
         position: absolute;
-        top: 73vh;
+        top: 75vh;
         left: 61.2vw;
         width: 17vw;
         height: 22vh;
@@ -145,7 +155,7 @@ body {
     justify-content:center;
      align-items:;  */
         position: absolute;
-        top: 73vh;
+        top: 75vh;
         left: 81.8vw;
         width: 17vw;
         height: 22vh;
@@ -175,7 +185,6 @@ body {
     }
     .pera{
         position: absolute;
-        
         margin-top: 27%;
         margin-left:29% ;
         text-align: center;
