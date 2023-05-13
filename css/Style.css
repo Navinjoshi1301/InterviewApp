@@ -37,19 +37,19 @@
 .addbutton {
     position: absolute;
     top: 22%;
-    left: 85%;
+    left: 85.45%;
 }
 
 .updatebutton {
     position: absolute;
     top: 22%;
-    left: 75.4%;
+    left: 76.54%;
 }
 
 .deletebutton {
     position: absolute;
-    top: 26%;
-    left: 72.55%;
+    top: 27%;
+    left: 73.95%;
 }
 
 .container {
@@ -72,10 +72,10 @@
 .dragdrop {
     position: absolute;
     top: 15%;
-    left: 12%;
+    left: 9%;
     border: 2px dashed #E0651D;
     height: 16vh;
-    width: 38vh;
+    width: 40vh;
 
 }
 
@@ -84,7 +84,7 @@
     width: 100%;
     color: #F08622;
     top: 66%;
-    left: 6%;
+    left: 4%;
 
 
 }
@@ -178,11 +178,11 @@
     position: absolute;
     border-radius: 5px;
     background-color: white(240, 17, 17);
-    width: 45vh;
+    width: 40vh;
     box-shadow: 0px 0px 20px #00000014;
-    height: 8vh;
+    height: 7vh;
     top: 27%;
-    left: 5%;
+    left: 9%;
 }
 
 .Input {
@@ -215,11 +215,11 @@ opacity: 1; */
     position: absolute;
     border-radius: 5px;
     background-color: white(243, 12, 12);
-    width: 45vh;
+    width: 40vh;
     box-shadow: 0px 0px 20px #00000014;
-    height: 8vh;
+    height: 7vh;
     top: 46%;
-    left: 5%;
+    left: 9%;
 
 }
 
@@ -257,14 +257,14 @@ opacity: 1; */
     position: absolute;
     background-color: white;
     top: 60%;
-    left: 56%;
+    left: 50%;
     height: 7vh;
-    width: 42%;
+    width: 46%;
 }
 
 .Forgot {
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 1vh;
     text-decoration: none;
 }
@@ -273,14 +273,14 @@ opacity: 1; */
     position: absolute;
     background-color: white(230, 11, 11);
     top: 77%;
-    left: 5%;
+    left: 9%;
     height: 8vh;
-    width: 45vh;
+    width: 40vh;
 }
 
 .button {
     position: absolute;
-    width: 45vh;
+    width: 40vh;
     height: 7vh;
     color: white;
     outline: none;
@@ -621,10 +621,10 @@ table#customers {
 
 .InputDip {
     position: absolute;
-    top: 44%;
-    left: 5%;
-    width: 45vh;
-    height: 8vh;
+    top: 47%;
+    left: 9%;
+    width: 40vh;
+    height: 7vh;
     border: none;
     background-color: white(241, 12, 12);
     border-radius: 5px;
@@ -635,7 +635,7 @@ table#customers {
 .input {
     position: absolute;
     width: 33vh;
-    height: 8vh;
+    height: 7vh;
     outline: none;
     background-color: white;
     border: none;
@@ -694,7 +694,7 @@ table#customers {
     top: 6%;
     left: 34%;
     height: 5vh;
-    width: 39%;
+    width: 45%;
     background-color: #ffffff;
 }
 
@@ -702,39 +702,39 @@ table#customers {
     position: absolute;
     border-radius: 5px;
     background-color: white;
-    width: 45vh;
+    width: 40vh;
     box-shadow: 0px 0px 20px #00000014;
-    height: 8vh;
+    height: 7vh;
     top: 18%;
-    left: 5%;
+    left: 9%;
 }
 
 .div2 {
     position: absolute;
     border-radius: 5px;
     background-color: white;
-    width: 45vh;
+    width: 40vh;
     box-shadow: 0px 0px 20px #00000014;
-    height: 8vh;
+    height: 7vh;
     top: 33%;
-    left: 5%;
+    left: 9%;
 }
 
 .div3 {
     position: absolute;
     border-radius: 5px;
     background-color: white;
-    width: 45vh;
-    height: 8vh;
+    width: 40vh;
+    height: 7vh;
     box-shadow: 0px 0px 20px #00000014;
     top: 48%;
-    left: 5%;
+    left: 9%;
 }
 
 .Dropdown {
     position: absolute;
-    width: 43vh;
-    height: 8vh;
+    width: 39vh;
+    height: 7vh;
     outline: none;
     background-color: white;
     border: none;
@@ -749,8 +749,8 @@ table#customers {
 
 .Dropdown2 {
     position: absolute;
-    width: 43vh;
-    height: 8vh;
+    width: 39vh;
+    height: 7vh;
     outline: none;
     background-color: white;
     border: none;
@@ -797,7 +797,7 @@ table#customers {
     position: absolute;
     top: 65%;
     left: 10%;
-    width: 45vh;
+    width: 40vh;
     height: 7vh;
     background-color: white;
 }
@@ -818,15 +818,17 @@ table#customers {
 .ImportExl {
     position: absolute;
     top: 83%;
-    left: 7%;
-    width: 45vh;
+    left: 10%;
+    width: 40vh;
     height: 7vh;
     background-color: white;
+    box-shadow: 0px 0px 20px #00000014;
 }
 
-.submitBtn {
-    height: 7vh;
-    width: 40vh;
+.SubmitBtn {
+    position: absolute;
+    height: 9vh;
+    width: 5vh;
     color: white;
     border-color: #f08622;
     box-shadow: 0px 0px 20px #00000014;
