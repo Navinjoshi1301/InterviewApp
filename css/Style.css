@@ -278,7 +278,7 @@ opacity: 1; */
     width: 40vh;
 }
 
-.button {
+.buttonL {
     position: absolute;
     width: 40vh;
     height: 7vh;
@@ -286,6 +286,7 @@ opacity: 1; */
     outline: none;
     border: #f08622;
     background-color: #f08622;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #00000014;
 
