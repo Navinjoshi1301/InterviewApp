@@ -56,7 +56,6 @@
     position: absolute;
     top: 20%;
     left: 80%;
-    /* position: absolute; */
     background-color: #FFFFFF;
     width: 53vh;
     height: 70vh;
@@ -294,14 +293,14 @@ opacity: 1; */
 
 
 
-/* Meghuuuuuuuuuu     page 1 css */
+/* Meghuuuuuuuuuu  page 1 css */
 
-/* {
+ *{
         margin: 0;
         padding: 0;
         font-family: 'Poppins';
         font-size: medium;
-    } */
+    }
 
 
 
@@ -523,7 +522,8 @@ table#customers {
 .A1button {
     position: absolute;
     left: 28%;
-    top: 16%;
+    top: 27%;
+    font-size: 88%;
     font-family: 'Poppins', sans-serif;
     font: bold normal 300 16px/25px Poppins;
     letter-spacing: 0px;
@@ -533,8 +533,9 @@ table#customers {
 
 .B1button {
     position: absolute;
-    left: 57%;
-    top: 16%;
+    left: 55%;
+    top: 27%;
+    font-size: 88%;
     font-family: 'Poppins', sans-serif;
     font: bold normal 300 16px/25px Poppins;
     letter-spacing: 0px;
@@ -544,9 +545,10 @@ table#customers {
 
 .C1button {
     position: absolute;
-    left: 87%;
-    top: 16%;
+    left: 84%;
+    top: 27%;
     text-align: left;
+    font-size: 88%;
     font-family: 'Poppins', sans-serif;
     font: bold normal 300 16px/25px Poppins;
     letter-spacing: 0px;
@@ -556,8 +558,9 @@ table#customers {
 
 .level {
     position: absolute;
-    left: 5%;
-    top: 16%;
+    left: 8%;
+    top: 27%;
+    font-size:88%;
     font-weight: bold normal 300 16px/25px Poppins;
     letter-spacing: 0px;
     font-family: 'Poppins', sans-serif;
